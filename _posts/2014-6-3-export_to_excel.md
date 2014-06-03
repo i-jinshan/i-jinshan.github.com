@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "rails导出excel文件"
-tags: ["rails"]
+tags: ["Rails"]
 ---
 {% include JB/setup %}
 

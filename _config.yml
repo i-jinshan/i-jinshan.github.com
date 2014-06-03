@@ -5,7 +5,7 @@ permalink: /:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
-markdown: kramdown
+markdown: rdiscount
 paginate: 6
 description_length: 200
 
@@ -13,7 +13,7 @@ description_length: 200
 # so be sure to set them if your theme uses them.
 #
 title : Allen
-tagline: Smile to life !
+tagline: 
 author :
   name : Allen
   email : chenjinshan198611@163.com

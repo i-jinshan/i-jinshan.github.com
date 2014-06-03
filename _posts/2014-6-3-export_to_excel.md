@@ -45,10 +45,10 @@ step3,在model中定义to_xls方法
 	  
 	  def self.to_xls(options = {})
 	    CSV.generate(options) do |csv|
-	      csv << ['产品名称',‘描述’]
+	      csv << ['产品名称','价格']
 	      all.each do |product|
 	        csv << product.name
-	        csv << product.description
+	        csv << product.price
 	      end
 	    end
 	  end

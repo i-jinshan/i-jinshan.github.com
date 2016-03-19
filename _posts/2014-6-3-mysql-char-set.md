@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MySQL编码设置"
-tags: ["MySQL"]
+tags: ["Mysql"]
 ---
 {% include JB/setup %}
 
